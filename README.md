@@ -22,7 +22,7 @@
 
 ## Introduction
 
-Med Search is a vertical AI search engine for medical literature.
+Med Search is a vertical AI search engine for medical literature. Inspired by [Perplexity](https://perplexity.ai) and [TurboSeek](https://www.turboseek.io).
 
 ## Features
 
