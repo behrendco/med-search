@@ -1,4 +1,4 @@
-<img alt="Med Search" src="https://github.com/behrendco/med-search/blob/main/public/preview.png" width="100%">
+<img alt="Med Search" src="https://github.com/behrendco/med-search/blob/main/public/app-preview.png" width="100%">
 <h1 align="center">Med Search</h1>
 <p align="center"><b>Search Medical Literature with AI</b></p>
 
