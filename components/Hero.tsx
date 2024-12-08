@@ -4,12 +4,18 @@ export default function Hero({
   question,
   setQuestion,
   handleSubmit,
+  handleNewSubmit,
 }: {
   question: string,
   setQuestion: Dispatch<SetStateAction<string>>,
   handleSubmit: (e: React.FormEvent<HTMLFormElement>) => Promise<void>,
+  handleNewSubmit: (query: string) => Promise<void>,
 }) {
-  const suggestions = ["Testing a longer question?", "Testing a question?", "Testing to"];
+  const suggestions = [
+    "Innovation in diabetes",
+    "Respiratory infections",
+    "Dialysis"
+  ];
 
   return (
     <div className="flex flex-col items-center justify-center h-screen w-full bg-zinc-900">
@@ -55,7 +61,7 @@ export default function Hero({
           <button 
             key={suggestion}
             className="border border-zinc-600 bg-zinc-800 text-white rounded-full py-1.5 px-4 focus:outline-none focus:ring-0"
-            onClick={() => {}}
+            onClick={() => handleNewSubmit(suggestion)}
           >
             {suggestion}
           </button>

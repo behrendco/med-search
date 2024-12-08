@@ -110,6 +110,7 @@ export default function Home() {
           question={question}
           setQuestion={setQuestion}
           handleSubmit={handleSubmit}
+          handleNewSubmit={handleNewSubmit}
         />
       )}
 
